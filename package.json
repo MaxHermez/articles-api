@@ -1,0 +1,27 @@
+{
+  "name": "articles-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaxHermez/articles-api.git"
+  },
+  "author": "Maxim Hermez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MaxHermez/articles-api/issues"
+  },
+  "homepage": "https://github.com/MaxHermez/articles-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "mongodb": "^5.7.0",
+    "winston": "^3.10.0"
+  }
+}
