@@ -1,13 +1,33 @@
-# articles-api
+# Set up
 
 This repository needs a .env file or environment variables to run.
 
-## .env file
+## .env file contents
 
 ```
 MONGO_URI=YOUR_MONGO_URI
 MONGO_DB=YOUR_MONGO_DB
 MONGO_COL=YOUR_MONGO_COLLECTION
+```
+
+## Running the API
+
+First we'll have to install all the package dependencies. From the root directory of the repository run the following
+
+```
+npm i
+```
+
+And now we can run the API
+
+```
+node index.js
+```
+
+The API uses __port 8000___ by default, this can be changed by adding an environment variable to the __.env__ file
+
+```
+PORT=8281
 ```
 
 # Usage 
